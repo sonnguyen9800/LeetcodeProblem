@@ -45,7 +45,7 @@ namespace LeetcodeProblem
             int val;
             if (int.TryParse(reverse, out val))
             {
-                return val;
+                return val*signed;
             };
 
 
@@ -54,10 +54,37 @@ namespace LeetcodeProblem
 
         }
 
+        //Solution: IsPalindrome
+        public bool IsPalindrome(int x)
+        {
+            if (x < 0) return false;
+            if (x == 0) return true;
+
+            char[] arrysString = x.ToString().ToCharArray();
+
+            for (int i = 0, j = arrysString.Length - 1; i != j; i++, j--)
+            {
+                if (arrysString[i] != arrysString[j])
+                {
+                    return false;
+                }
+                if (i == j || i > j)
+                {
+                    break;
+                }
+            }
+            return true;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+
+            Program program = new Program();
+            var x = program.IsPalindrome(11);
+            Console.WriteLine(x);
             var line = Console.ReadLine();
+
             if (line == "quit")
             {
                 return;
