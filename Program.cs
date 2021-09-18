@@ -32,6 +32,27 @@ namespace LeetcodeProblem
             return new int[] { 0, 0 };
         }
 
+        //Solution: Reverse
+        public int Reverse(int x)
+        {
+            int signed = x > 0 ? 1 : -1;
+            x *= signed; // get abs value;
+
+            string originalString = x.ToString();
+            char[] strArray = originalString.ToCharArray();
+            Array.Reverse(strArray);
+            string reverse = new string(strArray);
+            int val;
+            if (int.TryParse(reverse, out val))
+            {
+                return val;
+            };
+
+
+
+            return 0;
+
+        }
 
         static void Main(string[] args)
         {
