@@ -1,0 +1,7 @@
+C:\Projects\Leetcode\LeetcodeProblem\obj\Debug\LeetcodeProblem.csproj.AssemblyReference.cache
+C:\Projects\Leetcode\LeetcodeProblem\obj\Debug\LeetcodeProblem.csproj.CoreCompileInputs.cache
+C:\Projects\Leetcode\LeetcodeProblem\bin\Debug\LeetcodeProblem.exe.config
+C:\Projects\Leetcode\LeetcodeProblem\bin\Debug\LeetcodeProblem.exe
+C:\Projects\Leetcode\LeetcodeProblem\bin\Debug\LeetcodeProblem.pdb
+C:\Projects\Leetcode\LeetcodeProblem\obj\Debug\LeetcodeProblem.exe
+C:\Projects\Leetcode\LeetcodeProblem\obj\Debug\LeetcodeProblem.pdb
